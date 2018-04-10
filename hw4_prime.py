@@ -5,7 +5,7 @@ def is_prime(num):
     # your code here ...
     if num ==2:
         return True
-    for i in range(2, int(num**(1/2)_+1)):
+    for i in range(2, int(num**(1/2)+1)):
         if num % i ==0:
             return False
     return True
